@@ -113,4 +113,24 @@
     margin-left: 100px;
   }
 
+  footer{
+    height: 64px;
+    display: flex;
+    background-color: #f3f5f5;
+  }
 
+  #foot-l{
+    padding: 16px 24px;
+    color: #8e8f8f;
+  }
+
+  #foot-r{
+    padding: 16px 24px;
+    position:absolute; 
+    right: 300px; 
+  }
+
+  #foot-r span{
+    padding-left: 10;
+    color: #9e9f9f;
+  }
