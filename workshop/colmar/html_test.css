@@ -25,6 +25,19 @@
     margin: 15 0;
   }
 
+  #colmar-nav #nav-right{
+    margin-top: 15;
+    position:relative; 
+    right: 0;
+    float: right;
+  }
+
+  #colmar-nav #nav-right span{
+    font-size: 32px;
+    margin-right: 16;
+    font-weight: 450;
+  }
+
   #colmar-nav #nav-head span{
     font-size: 32px;
   }
@@ -73,4 +86,19 @@
     padding: 8px 0px;
     margin-top: 24px;
   }
+
+  #hightlight{
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+    background-color: #d7d7d7;
+  }
+
+  #hightlight #newfeed {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
 
