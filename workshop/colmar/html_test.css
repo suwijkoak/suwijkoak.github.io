@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    border: 1px black solid;
   }
   
   body {
@@ -8,6 +9,16 @@
     margin: auto;
   }
   
+  #colmar-nav{
+    height: 64px;
+    padding: 11px 24px;
+  }
+
+  #colmar-nav img{
+    height: px;
+    width: 24px;
+  }
+
   #banner-container {
   
     display: flex;
@@ -24,7 +35,7 @@
     max-width: 300px;
     display: flex;
     flex-direction: column;
-    margin-left: 24px;
+    margin-left: 100px;
   }
   
   #banner-container #banner-text h1 {
@@ -44,3 +55,4 @@
     padding: 8px 0px;
     margin-top: 24px;
   }
+
