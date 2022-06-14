@@ -27,8 +27,11 @@
 
   #colmar-nav #nav-right{
     margin-top: 15;
-    position:relative; 
-    padding-left: 420;
+  }
+
+  #nav-right{
+    position:absolute; 
+    right:300px; 
   }
 
   #colmar-nav #nav-right span{
