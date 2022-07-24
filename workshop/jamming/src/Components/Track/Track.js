@@ -1,7 +1,7 @@
 import './Track.css';
 
 function Track() {
-    renderAction=()=>{
+    const renderAction=()=>{
         if(isRemoval){
             <button className="Track-action">-</button>
         }
