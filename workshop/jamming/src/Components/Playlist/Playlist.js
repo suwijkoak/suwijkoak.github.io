@@ -1,6 +1,6 @@
 import './Playlist.css';
 import TrackList from '../TrackList/TrackList';
-function Playlist() {
+const Playlist=(props)=> {
   return (
     <div className="Playlist">
   <input defaultValue={'New Playlist'}/>
